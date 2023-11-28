@@ -1,0 +1,89 @@
+
+
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:#000000;
+}
+/*Estilização do HEADER da página*/
+header{
+    background-color: #000000;
+}
+/*Estilização do LOGOTIPO*/
+.logo{
+    padding: 40;
+    width: 10%;
+}
+/*Estilização do MENU*/
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 1500px;
+    position: relative;
+    margin: auto;
+}
+/*Estilização do banner*/
+.banner {
+    width: 100%;
+}
+.agendar {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.opcoes-agendar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.agendar-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.agendar-link:hover {
+    transform: scale(1.05);
+}
+
+.agendar {
+    text-align: center;
+
+}
+
+.agendar img {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.agendar h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

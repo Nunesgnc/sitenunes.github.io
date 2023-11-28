@@ -1,0 +1,170 @@
+/* Estilização geral do site */
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilização do HEADER da página */
+header {
+    background-color: #000000;
+}
+
+/* Estilização do LOGOTIPO */
+.logo {
+    width: 30%;
+}
+
+/* Estilização do MENU */
+nav {
+    right: 50px; /* Adicionado a unidade 'px' */
+    position: absolute;
+    top: 125px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.horror {
+    width: 950px;
+}
+
+nav a:hover {
+    color: #800404;
+    text-decoration: underline;
+}
+
+.logo_caixa {
+    width: 790px;
+    display: flex;
+}
+
+/* Estilização do banner */
+.banner {
+    width: 100%;
+}
+
+/* Estilização da sessão Sobre a Urban WRLD */
+.urban {
+    width: 150px;
+    float: left;
+    margin: 0 20px;
+}
+
+.titulo_sobre {
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.meiohorror {
+    background: linear-gradient(#000000, #2b0606);
+    color: #ffffff;
+}
+
+.meiohorror p {
+    margin-bottom: 0;
+}
+
+.area-urban {
+    width: 85%;
+    text-align: justify;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+/* Títulos - Padrão */
+.titulo-padrao {
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/* Estilização da sessão Nosso Estabelecimento (mapa) */
+.mapa {
+    background: linear-gradient(#000000, #2b0606);
+}
+
+.mapa p {
+    text-align: center;
+}
+
+.mapa iframe {
+    display: block;
+    margin: auto;
+}
+
+/* Estilização da sessão Benefícios */
+.atracoes {
+      background: linear-gradient(#2b0606, #000000);
+}
+
+.conteudo_atracoes {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.lista-atracoes {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: "♣";
+    padding-left: 35%;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.itens {
+    line-height: 2;
+}
+
+.itens:before {
+    content: "🤡";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.img_susto {
+    width: 250px;
+    box-shadow: 10px 10px 5px 0px;
+    opacity: 1;
+    transition: 400ms;
+    margin-top: 25px;
+}
+
+.img_susto:hover {
+    opacity: 0.7;
+}
+
+.video {
+    width: 560px;
+    margin: 2cm auto;
+}
+
+/* Estilização do footer */
+footer {
+    text-align: center;
+    background: url("assets/imagens/black.png");
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 12px;
+}
